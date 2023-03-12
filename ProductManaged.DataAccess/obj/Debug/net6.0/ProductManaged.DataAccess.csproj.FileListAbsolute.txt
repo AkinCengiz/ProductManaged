@@ -1,0 +1,17 @@
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\bin\Debug\net6.0\ProductManaged.DataAccess.deps.json
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\bin\Debug\net6.0\ProductManaged.DataAccess.runtimeconfig.json
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\bin\Debug\net6.0\ProductManaged.DataAccess.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\bin\Debug\net6.0\ProductManaged.DataAccess.pdb
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\bin\Debug\net6.0\ProductManaged.Entities.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\bin\Debug\net6.0\ProductManaged.Entities.pdb
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\obj\Debug\net6.0\ProductManaged.DataAccess.csproj.AssemblyReference.cache
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\obj\Debug\net6.0\ProductManaged.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\obj\Debug\net6.0\ProductManaged.DataAccess.AssemblyInfoInputs.cache
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\obj\Debug\net6.0\ProductManaged.DataAccess.AssemblyInfo.cs
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\obj\Debug\net6.0\ProductManaged.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\obj\Debug\net6.0\ProductManaged.DataAccess.csproj.CopyComplete
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\obj\Debug\net6.0\ProductManaged.DataAccess.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\obj\Debug\net6.0\refint\ProductManaged.DataAccess.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\obj\Debug\net6.0\ProductManaged.DataAccess.pdb
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\obj\Debug\net6.0\ProductManaged.DataAccess.genruntimeconfig.cache
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.DataAccess\obj\Debug\net6.0\ref\ProductManaged.DataAccess.dll

@@ -1,0 +1,12 @@
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\bin\Debug\net6.0\ProductManaged.Entities.deps.json
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\bin\Debug\net6.0\ProductManaged.Entities.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\bin\Debug\net6.0\ProductManaged.Entities.pdb
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\ProductManaged.Entities.csproj.AssemblyReference.cache
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\ProductManaged.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\ProductManaged.Entities.AssemblyInfoInputs.cache
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\ProductManaged.Entities.AssemblyInfo.cs
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\ProductManaged.Entities.csproj.CoreCompileInputs.cache
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\ProductManaged.Entities.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\refint\ProductManaged.Entities.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\ProductManaged.Entities.pdb
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\ref\ProductManaged.Entities.dll
