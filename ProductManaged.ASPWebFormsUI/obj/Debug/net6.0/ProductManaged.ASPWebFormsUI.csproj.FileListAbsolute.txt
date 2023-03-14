@@ -288,3 +288,7 @@ C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.ASPWebFormsUI\bin\D
 C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.ASPWebFormsUI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.ASPWebFormsUI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.ASPWebFormsUI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.ASPWebFormsUI\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.ASPWebFormsUI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.ASPWebFormsUI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.ASPWebFormsUI\obj\Debug\net6.0\ProductManaged.ASPWebFormsUI.MvcApplicationPartsAssemblyInfo.cs

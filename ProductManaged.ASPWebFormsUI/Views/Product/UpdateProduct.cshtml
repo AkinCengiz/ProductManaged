@@ -1,0 +1,26 @@
+﻿@model ProductManaged.Entities.Concrete.Product
+@{
+    ViewData["Title"] = "UpdateProduct";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<h1>UpdateProduct</h1>
+
+<form method="post">
+    @Html.Label("Ürün ID : ")
+    @Html.TextBoxFor(p=>p.ProductId, new { @class = "form-control"})
+    <br />
+    @Html.Label("Ürün Adı : ")
+    @Html.TextBoxFor(p => p.ProductName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(p => p.ProductName)
+    <br />
+    @Html.Label("Birim Fiyatı : ")
+    @Html.TextBoxFor(p => p.Price, new { @class = "form-control" })
+    @Html.ValidationMessageFor(p => p.Price)
+    <br />
+    @Html.Label("Stok Miktarı : ")
+    @Html.TextBoxFor(p => p.Stock, new { @class = "form-control" })
+    @Html.ValidationMessageFor(p => p.Stock)
+    <br />
+    <button class="btn btn-warning">Güncelle</button>
+</form>

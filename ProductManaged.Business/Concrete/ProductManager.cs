@@ -19,27 +19,27 @@ namespace ProductManaged.Business.Concrete
         }
         public void TAdd(Product entity)
         {
-            throw new NotImplementedException();
+            _productDal.Add(entity);
         }
 
         public void TUpdate(Product entity)
         {
-            throw new NotImplementedException();
+            _productDal.Update(entity);
         }
 
         public void TDelete(Product entity)
         {
-            throw new NotImplementedException();
+            _productDal.Delete(entity);
         }
 
         public List<Product> TGetList()
         {
-            throw new NotImplementedException();
+            return _productDal.GetAll();
         }
 
         public Product TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _productDal.GetAll().Where(p => p.ProductId == id).SingleOrDefault();
         }
     }
 }
