@@ -1,0 +1,17 @@
+﻿@model ProductManaged.Entities.Concrete.Category
+@{
+    ViewData["Title"] = "UpdateCategory";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<h1>UpdateCategory</h1>
+<form method="post">
+    @Html.Label("Kategori ID : ")
+    @Html.TextBoxFor(c => c.CategoryId, new { @class = "form-control"})
+    <br />
+    @Html.Label("Kategori Adı : ")
+    @Html.TextBoxFor(c => c.CategoryName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(c => c.CategoryName)
+    <br />
+    <button class="btn btn-warning">Güncelle</button>
+</form>

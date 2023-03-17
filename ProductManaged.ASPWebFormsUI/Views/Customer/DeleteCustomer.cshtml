@@ -1,0 +1,22 @@
+﻿@model ProductManaged.Entities.Concrete.Customer
+@{
+    ViewData["Title"] = "DeleteCustomer";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<h1>Müşteri Sil</h1>
+
+<form method="post">
+    @Html.Label("Müşteri ID : ")
+    @Html.TextBoxFor(c => c.CustomerId, new { @class = "form-control"})
+    <br />
+    @Html.Label("Müşteri Adı : ")
+    @Html.TextBoxFor(c => c.CustomerName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(c => c.CustomerName)
+    <br />
+    @Html.Label("Şehri : ")
+    @Html.TextBoxFor(c => c.CustomerCity, new { @class = "form-control" })
+    @Html.ValidationMessageFor(c => c.CustomerCity)
+    <br />
+    <button class="btn btn-danger">Sil</button>
+</form>

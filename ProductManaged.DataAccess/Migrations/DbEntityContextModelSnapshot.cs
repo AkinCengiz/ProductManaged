@@ -54,9 +54,31 @@ namespace ProductManaged.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("JobId")
+                        .HasColumnType("int");
+
                     b.HasKey("CustomerId");
 
+                    b.HasIndex("JobId");
+
                     b.ToTable("Customers");
+                });
+
+            modelBuilder.Entity("ProductManaged.Entities.Concrete.Job", b =>
+                {
+                    b.Property<int>("JobId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("JobId"));
+
+                    b.Property<string>("JobName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("JobId");
+
+                    b.ToTable("Jobs");
                 });
 
             modelBuilder.Entity("ProductManaged.Entities.Concrete.Product", b =>
@@ -80,6 +102,22 @@ namespace ProductManaged.DataAccess.Migrations
                     b.HasKey("ProductId");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("ProductManaged.Entities.Concrete.Customer", b =>
+                {
+                    b.HasOne("ProductManaged.Entities.Concrete.Job", "Job")
+                        .WithMany("Customers")
+                        .HasForeignKey("JobId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Job");
+                });
+
+            modelBuilder.Entity("ProductManaged.Entities.Concrete.Job", b =>
+                {
+                    b.Navigation("Customers");
                 });
 #pragma warning restore 612, 618
         }

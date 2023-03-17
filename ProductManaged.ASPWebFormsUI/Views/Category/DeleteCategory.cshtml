@@ -1,0 +1,16 @@
+﻿@model ProductManaged.Entities.Concrete.Category
+@{
+    ViewData["Title"] = "DeleteCategory";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<form method="post">
+    @Html.Label("Kategori ID : ")
+    @Html.TextBoxFor(c => c.CategoryId, new { @class = "form-control"})
+    <br />
+    @Html.Label("Kategori Adı : ")
+    @Html.TextBoxFor(c => c.CategoryName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(c => c.CategoryName)
+    <br />
+    <button class="btn btn-danger">Sil</button>
+</form>
