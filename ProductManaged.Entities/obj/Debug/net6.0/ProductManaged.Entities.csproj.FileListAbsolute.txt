@@ -10,3 +10,5 @@ C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\
 C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\refint\ProductManaged.Entities.dll
 C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\ProductManaged.Entities.pdb
 C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\ref\ProductManaged.Entities.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\bin\Debug\net6.0\ProductManaged.Entities.runtimeconfig.json
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Entities\obj\Debug\net6.0\ProductManaged.Entities.genruntimeconfig.cache

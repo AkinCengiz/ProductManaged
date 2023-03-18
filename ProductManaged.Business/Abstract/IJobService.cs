@@ -9,5 +9,6 @@ namespace ProductManaged.Business.Abstract
 {
     public interface IJobService : IGenericService<Job>
     {
+        
     }
 }

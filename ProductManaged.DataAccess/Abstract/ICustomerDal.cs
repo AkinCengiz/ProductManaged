@@ -9,6 +9,6 @@ namespace ProductManaged.DataAccess.Abstract
 {
     public interface ICustomerDal : IEntityRepository<Customer>
     {
-       
+        List<Customer> GetCustomerListWithJob();
     }
 }

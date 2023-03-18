@@ -12,6 +12,7 @@
         <th>Meslek Adı</th>
         <th>Sil</th>
         <th>Güncelle</th>
+        <th>Detaylar</th>
     </tr>
     @foreach (var item in Model)
     {
@@ -20,6 +21,7 @@
             <td>@item.JobName</td>
             <td><a href="/Job/DeleteJob/@item.JobId" class="btn btn-outline-danger">Sil</a></td>
             <td><a href="/Job/UpdateJob/@item.JobId" class="btn btn-outline-warning">Güncelle</a></td>
+            <td><a href="/Job/DetailsJob/@item.JobId" class="btn btn-outline-info">Detaylar</a></td>
         </tr>
     }
 </table>

@@ -42,5 +42,10 @@ namespace ProductManaged.Business.Concrete
         {
             return _customerDal.GetAll().Where(c => c.CustomerId == id).SingleOrDefault();
         }
+
+        public List<Customer> GetCustomersListWithJob()
+        {
+            return _customerDal.GetCustomerListWithJob();
+        }
     }
 }

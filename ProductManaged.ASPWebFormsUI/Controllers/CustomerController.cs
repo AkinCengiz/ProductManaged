@@ -1,5 +1,6 @@
 ﻿using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ProductManaged.Business.Concrete;
 using ProductManaged.Business.FluentValidation;
@@ -11,16 +12,23 @@ namespace ProductManaged.ASPWebFormsUI.Controllers
     public class CustomerController : Controller
     {
         private CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
-
+        private JobManager jobManager = new JobManager(new EfJobDal());
         public IActionResult Index()
         {
-            var customers = customerManager.TGetList();
+            var customers = customerManager.GetCustomersListWithJob();
             return View(customers);
         }
 
         [HttpGet]
         public IActionResult AddCustomer()
         {
+            List<SelectListItem> customerJobs = (from j in jobManager.TGetList()
+                select new SelectListItem
+                {
+                    Text = j.JobName,
+                    Value = j.JobId.ToString()
+                }).ToList();
+            ViewBag.v = customerJobs;
             return View();
         }
 
@@ -62,6 +70,13 @@ namespace ProductManaged.ASPWebFormsUI.Controllers
         [HttpGet]
         public IActionResult UpdateCustomer(int id)
         {
+            List<SelectListItem> customerJobs = (from j in jobManager.TGetList()
+                select new SelectListItem
+                {
+                    Text = j.JobName,
+                    Value = j.JobId.ToString()
+                }).ToList();
+            ViewBag.v = customerJobs;
             Customer customer = customerManager.TGetById(id);
             return View(customer);
         }

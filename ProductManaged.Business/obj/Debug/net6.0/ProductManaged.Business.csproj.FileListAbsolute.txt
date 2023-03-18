@@ -15,3 +15,5 @@ C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Business\obj\Debug\
 C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Business\obj\Debug\net6.0\refint\ProductManaged.Business.dll
 C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Business\obj\Debug\net6.0\ProductManaged.Business.pdb
 C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Business\obj\Debug\net6.0\ref\ProductManaged.Business.dll
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Business\bin\Debug\net6.0\ProductManaged.Business.runtimeconfig.json
+C:\Users\akinc\source\repos\ProductManaged_V0\ProductManaged.Business\obj\Debug\net6.0\ProductManaged.Business.genruntimeconfig.cache
