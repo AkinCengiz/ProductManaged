@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using ProductManaged.Entities.Concrete;
 
 namespace ProductManaged.DataAccess.Concrete.EntityFramework
 {
-    public class DbEntityContext : DbContext
+    public class DbEntityContext : IdentityDbContext<AppUser,AppRole,int>
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

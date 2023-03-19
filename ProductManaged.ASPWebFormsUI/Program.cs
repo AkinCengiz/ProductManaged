@@ -1,7 +1,24 @@
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
+using ProductManaged.ASPWebFormsUI.Models;
+using ProductManaged.DataAccess.Concrete.EntityFramework;
+using ProductManaged.Entities.Concrete;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<DbEntityContext>();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<DbEntityContext>().AddErrorDescriber<CustomIdentityValidator>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddMvc(config =>
+{
+    var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+    config.Filters.Add(new AuthorizeFilter(policy));
+});
+builder.Services.ConfigureApplicationCookie(option =>
+{
+    option.LoginPath = "/Login/Index/";
+});
 
 var app = builder.Build();
 
@@ -15,6 +32,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseAuthentication();
 
 app.UseRouting();
 
